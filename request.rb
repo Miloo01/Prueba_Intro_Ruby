@@ -11,7 +11,7 @@ def request(address,key)
     request = Net::HTTP::Get.new(url)
     http.use_ssl = true
     http.verify_mode = OpenSSL::SSL::VERIFY_PEER
-    Response = http.request(request)
+    response = http.request(request)
 
 
     unless (response.code.to_i / 100) == 2
