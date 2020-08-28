@@ -42,6 +42,16 @@ def buid_web_page(hash)
     
 end     
 
+#def photos_count(hash)
+
+     #if ["photos"].each do
+          
+     #end
+
+         
+
+#end     
+
 
 
 
